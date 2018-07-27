@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="CREATE REQUEST" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="VIEW REQUESTS" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_cancel_black_24dp"
+            android:title="CANCELLED REQUESTS" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="COMPLETED REQUESTS" />
+    </group>
+
+    <item android:title="HELPER">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="NEW REQUESTS" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="ACCEPTED REQUESTS" />
+            <item
+                android:id="@+id/nav_sen"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="COMPLETED REQUESTS" />
+        </menu>
+    </item>
+
+</menu>
